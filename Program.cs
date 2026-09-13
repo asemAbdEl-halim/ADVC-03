@@ -152,6 +152,75 @@
             //}
 
             #endregion
+
+            #region Exercise03
+
+            //// 1. Create a phone book with 4 contacts
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+
+            //phoneBook.Add("Ahmed", "01011111111");
+            //phoneBook.Add("Sara", "01022222222");
+            //phoneBook.Add("Ali", "01033333333");
+            //phoneBook.Add("Mona", "01044444444");
+
+
+            //// 2. Add a new contact using [] syntax
+            //phoneBook["Omar"] = "01055555555";
+
+
+            //// 3. Try adding a duplicate using Add()
+            //try
+            //{
+            //    phoneBook.Add("Ahmed", "01199999999");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine("Add Error: " + ex.Message);
+            //}
+
+
+            //// 4. Try adding a duplicate using TryAdd()
+            //bool added = phoneBook.TryAdd("Ahmed", "01188888888");
+
+            //Console.WriteLine("TryAdd succeeded: " + added);
+
+
+            //// 5. Search for a contact that doesn't exist
+            //bool exists = phoneBook.ContainsKey("Khaled");
+
+            //Console.WriteLine("Khaled exists: " + exists);
+
+
+            //// 6. Get a contact with a fallback
+            //string phoneNumber;
+
+            //if (phoneBook.TryGetValue("Khaled", out phoneNumber))
+            //{
+            //    Console.WriteLine("Khaled: " + phoneNumber);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Khaled: Not Found");
+            //}
+
+
+            //// 7. Print all Keys
+            //Console.WriteLine("\nKeys:");
+
+            //foreach (string name in phoneBook.Keys)
+            //{
+            //    Console.Write(name + " ");
+            //}
+
+            //// Print all Values
+            //Console.WriteLine("\n\nValues:");
+
+            //foreach (string phone in phoneBook.Values)
+            //{
+            //    Console.Write(phone + " ");
+            //}
+
+            #endregion
         }
     }
 }
