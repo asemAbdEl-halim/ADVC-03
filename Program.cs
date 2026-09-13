@@ -221,6 +221,80 @@
             //}
 
             #endregion
+
+            #region Exercise04
+
+        //    // 1. Create HashSet with case-insensitive comparer
+        //    HashSet<string> emails =
+        //        new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        //    // 2. Add emails
+        //    emails.Add("ahmed@test.com");
+        //    emails.Add("AHMED@test.com");
+        //    emails.Add("sara@test.com");
+        //    emails.Add("Sara@Test.Com");
+
+
+        //    // 3. Print Count
+        //    Console.WriteLine("Email Count: " + emails.Count);
+
+
+        //    // 4. Create Set A and Set B
+        //    HashSet<int> setA = new HashSet<int>
+        //{
+        //    1, 2, 3, 4, 5
+        //};
+
+        //    HashSet<int> setB = new HashSet<int>
+        //{
+        //    4, 5, 6, 7, 8
+        //};
+
+
+        //    // UnionWith
+        //    HashSet<int> union = new HashSet<int>(setA);
+        //    union.UnionWith(setB);
+
+        //    Console.WriteLine("\nUnion:");
+        //    foreach (int number in union)
+        //    {
+        //        Console.Write(number + " ");
+        //    }
+
+
+        //    // IntersectWith
+        //    HashSet<int> intersect = new HashSet<int>(setA);
+        //    intersect.IntersectWith(setB);
+
+        //    Console.WriteLine("\n\nIntersection:");
+        //    foreach (int number in intersect)
+        //    {
+        //        Console.Write(number + " ");
+        //    }
+
+
+        //    // ExceptWith
+        //    HashSet<int> except = new HashSet<int>(setA);
+        //    except.ExceptWith(setB);
+
+        //    Console.WriteLine("\n\nExcept:");
+        //    foreach (int number in except)
+        //    {
+        //        Console.Write(number + " ");
+        //    }
+
+
+        //    // 6. IsSubsetOf
+        //    HashSet<int> smallSet = new HashSet<int>
+        //{
+        //    1, 2
+        //};
+
+        //    bool isSubset = smallSet.IsSubsetOf(setA);
+
+        //    Console.WriteLine("\n\nIs {1, 2} a subset of Set A? " + isSubset);
+
+            #endregion
         }
     }
 }
